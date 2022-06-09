@@ -3,8 +3,8 @@
 Login admin 
 http://127.0.0.1:8000/admin/
 
-user: lfigueroa
-pass: river123
+user: lfigueroa <br>
+pass: river123 <br>
 -------------------------------------
 
 En el index principal
