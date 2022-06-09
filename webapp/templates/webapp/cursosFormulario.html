@@ -4,8 +4,8 @@
 
 {% endblock %}
 {% block contenidoQueCambia %}
-    <h3 class="card mb-1 mt-3 mx-5 bg-info text-white" style="width: 17.3rem;" >Registro de Profesores</h3>
-<form action="{% url 'profesores' %}" method="POST">{% csrf_token %}
+    <h3 class="card mb-1 mt-3 mx-5 bg-info text-white" style="width: 17.3rem;" >Registro de curso</h3>
+<form action="{% url 'cursosFormulario' %}" method="POST">{% csrf_token %}
  
     <table class ="card mb-1 mt-1 mx-5 bg-info text-white"style="width: 17.3rem;">
         <style>
@@ -38,4 +38,3 @@
 
 
 {% endblock %}
-
